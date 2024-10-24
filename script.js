@@ -6,5 +6,5 @@ let output = document.querySelector("#output");
 
 submitBtn.addEventListener("click", setTimeout(()=>{
 	output.innerText = `${test}`;
-}, 1000))
+}, time))
 
